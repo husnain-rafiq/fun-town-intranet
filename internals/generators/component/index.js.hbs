@@ -1,0 +1,36 @@
+/**
+*
+* {{ properCase name }}
+*
+*/
+
+{{#if memo}}
+import React, { memo } from 'react';
+{{else}}
+import React from 'react';
+{{/if}}
+// import PropTypes from 'prop-types';
+{{#if wantMaterialUI}}
+import { Box, Container,Grid } from '@material-ui/core';
+import { makeStyles } from '@material-ui/core/styles';
+{{/if}}
+//import clsx from 'clsx';
+
+{{#if wantMaterialUI}}
+const useStyles = makeStyles((theme) => ({}));
+{{/if}}
+function {{ properCase name }}() {
+{{#if wantMaterialUI}}
+const classes = useStyles();
+{{/if}}
+return (
+<>
+</>
+);
+}
+
+{{#if memo}}
+export default memo({{ properCase name }});
+{{else}}
+export default {{ properCase name }};
+{{/if}}

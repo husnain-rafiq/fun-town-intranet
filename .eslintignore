@@ -1,0 +1,3 @@
+/app/components/ckeditor5/*
+internals/scripts/**
+/build/*

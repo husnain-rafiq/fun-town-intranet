@@ -1,0 +1,6 @@
+API_URL=http://34.228.78.199/api/
+PORT=3000
+API_ASSETS_URL=http://34.228.78.199/assets/
+GOOGLE_CLIENT_ID=242177249162-o3u2clgcr5art89qblbv34n9vsijtuqq.apps.googleusercontent.com
+GSUITE_DOMAIN=datics.ai
+
